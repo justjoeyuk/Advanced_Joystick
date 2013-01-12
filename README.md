@@ -45,6 +45,18 @@ That's it. Run that code every frame and your object will move according to the 
 you can multiply this by a maximum value to move and object depending on the distance of the stick from the center of 
 the holder.
 
+----
+<br/>
+<h3>A few helpful functions</h3>
+There are 3, more smaller functions that you should know. These are:
+- `activate();`
+- `deactivate();`
+- `changeSkin( holderTexture, stickTexture );`
+
+These functions are pretty self-explanitory. If you deactivate the Joystick, touch will not work until it is activated. 
+The `changeSkin()` accepts 2 Starling Textures. I recommend using a Texture Atlas as these are helpful with Memory in 
+larger games. There are plenty of tutorials elsewhere for that.
+
 <br/><br/>
 
 <div align="center"><h2><strong>Please Note</strong></h2></div>

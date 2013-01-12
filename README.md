@@ -20,6 +20,8 @@ Starling provides. To get started, you should:
 If you are not planning on using the default skin of the Joystick, the please open the file 'JoyStick.as' and then
 remove these lines of code:
 
+----
+
 `[Embed( source="skins/default_stick.png" )] private static const dsClassEmbed:Class;`
 `public static const DEFAULT_STICK:Texture = Texture.fromBitmap( new dsClassEmbed() );`
 `[Embed( source="skins/default_holder.png" )] private static const dhClassEmbed:Class;`

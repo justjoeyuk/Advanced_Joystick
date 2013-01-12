@@ -1,2 +1,2 @@
-: **WELCOME TO ADVANCED_JOYSTICK** :
+<center> **WELCOME TO ADVANCED_JOYSTICK** </center>
 -------------------------------

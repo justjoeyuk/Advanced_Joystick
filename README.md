@@ -29,6 +29,7 @@ bottom left of the screen since `minOffset` is the total size of the joystick, m
 screen. The Joystick is then added to the Starling Display List.
 
 ----
+<br/>
 
 Now, for getting the movement from the Joystick, this is also **very** simple. Let's use some simple code to move 
 a simple object. Let's assume `player` is a Starling Sprite:

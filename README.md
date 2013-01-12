@@ -1,8 +1,7 @@
 <div align="center"> <h1>WELCOME TO ADVANCED_JOYSTICK<h1> </div>
 <br/><br/>
 
-**Getting Started**
--------------------
+<div align="center"><h2>Getting Started</h2></div>
 Hey there. If you're reading this, it is likely you are looking for a Joystick solution for Starling. **Well you've 
 found it!*. This Joystick offers features you'd expect from one, and it runs smoothly with the GPU Acceleration that 
 Starling provides. To get started, you should:

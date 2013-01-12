@@ -1,2 +1,2 @@
-<center> **WELCOME TO ADVANCED_JOYSTICK** </center>
+<div align="center"> **WELCOME TO ADVANCED_JOYSTICK** </div>
 -------------------------------

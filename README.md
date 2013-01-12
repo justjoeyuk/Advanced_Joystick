@@ -53,7 +53,7 @@ COMMENT OUT these lines of code:
 
 ----
 
-`[Embed( source="skins/default_stick.png" )] private static const dsClassEmbed:Class;`
-`public static const DEFAULT_STICK:Texture = Texture.fromBitmap( new dsClassEmbed() );`
-`[Embed( source="skins/default_holder.png" )] private static const dhClassEmbed:Class;`
-`public static const DEFAULT_HOLDER:Texture = Texture.fromBitmap( new dhClassEmbed() );`
+<pre><code>[Embed( source="skins/default_stick.png" )] private static const dsClassEmbed:Class;
+public static const DEFAULT_STICK:Texture = Texture.fromBitmap( new dsClassEmbed() );
+[Embed( source="skins/default_holder.png" )] private static const dhClassEmbed:Class;
+public static const DEFAULT_HOLDER:Texture = Texture.fromBitmap( new dhClassEmbed() );>/code></pre>

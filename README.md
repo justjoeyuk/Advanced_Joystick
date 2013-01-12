@@ -32,7 +32,7 @@ screen. The Joystick is then added to the Starling Display List.
 
 ----
 <br/>
-
+<h3>Movement and Velocity</h3>
 Now, for getting the movement from the Joystick, this is also **very** simple. Let's use some simple code to move 
 a simple object. Let's assume `player` is a Starling Sprite:
 

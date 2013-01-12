@@ -19,8 +19,7 @@ Starling provides. To get started, you should:
 ----------
 The code in Advanced Joystick is **very** simple. Now, lets start with adding a simple JoyStick:
 
-<pre><code>
-import starling.extensions.advancedjoystick.JoyStick;
+<pre><code>import starling.extensions.advancedjoystick.JoyStick;
 
 var myJoystick:Joystick = new Joystick();
 myJoystick.setPosition(myJoystick.minOffsetX, clientHeight - myJoystick.minOffsetY);
@@ -28,7 +27,7 @@ addChild(myJoystick);
 </code></pre>
 
 The above code would initialize the Joystick with the Default Skin. The Joystick will then be positioned at the 
-bottom left of the screen since `minOffset' is the total size of the joystick, meaning that it will all be in the 
+bottom left of the screen since `minOffset` is the total size of the joystick, meaning that it will all be in the 
 screen. The Joystick is then added to the Starling Display List.
 
 ----
@@ -36,10 +35,9 @@ screen. The Joystick is then added to the Starling Display List.
 Now, for getting the movement from the Joystick, this is also **very** simple. Let's use some simple code to move 
 a simple object. Let's assume `player` is a Starling Sprite:
 
-<code>
-player.x += myJoystick.velocityX * maxSpeed;
+<pre><code>player.x += myJoystick.velocityX * maxSpeed;
 player.y += myJoystick.velocityY * maxSpeed;
-</code>
+</code></pre>
 
 That's it. Run that code every frame and your object will move according to the Joystick. The values of `velocityX` and 
 `velocityY` are returned as normalized values, meaning that the value is between 0 and 1. This is for your benefit as 

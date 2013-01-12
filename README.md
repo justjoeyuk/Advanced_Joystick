@@ -19,13 +19,13 @@ Starling provides. To get started, you should:
 ----------
 The code in Advanced Joystick is **very** simple. Now, lets start with adding a simple JoyStick:
 
-<code>
+<pre><code>
 import starling.extensions.advancedjoystick.JoyStick;
 
 var myJoystick:Joystick = new Joystick();
 myJoystick.setPosition(myJoystick.minOffsetX, clientHeight - myJoystick.minOffsetY);
 addChild(myJoystick);
-</code>
+</code></pre>
 
 The above code would initialize the Joystick with the Default Skin. The Joystick will then be positioned at the 
 bottom left of the screen since `minOffset' is the total size of the joystick, meaning that it will all be in the 

@@ -60,7 +60,7 @@ larger games. There are plenty of tutorials elsewhere for that.
 <br/><br/><br/><br/>
 
 <div align="center"><h2><strong>Please Note</strong></h2></div>
-If you are not planning on using the default skin of the Joystick, the please open the file 'JoyStick.as' and then
+If you are not planning on using the default skin of the Joystick, then please open the file 'JoyStick.as' and then
 COMMENT OUT these lines of code:
 
 ----

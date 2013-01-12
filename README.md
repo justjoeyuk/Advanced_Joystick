@@ -15,6 +15,8 @@ Starling provides. To get started, you should:
 <br/><br/>
 
 <div align="center"><h2><strong>Usage</strong></h2></div>
+
+<h3>Creation and Initialization</h3>
 The code in Advanced Joystick is **very** simple. Now, lets start with adding a simple JoyStick:
 
 <pre><code>import starling.extensions.advancedjoystick.JoyStick;

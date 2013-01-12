@@ -1,5 +1,5 @@
 <div align="center"> <h1>WELCOME TO ADVANCED_JOYSTICK<h1> </div>
-->
+
 **Getting Started**
 -------------------
 Hey there. If you're reading this, it is likely you are looking for a Joystick solution for Starling. **Well you've 
@@ -12,6 +12,7 @@ Starling provides. To get started, you should:
 - Extract the source files to 'starling/extensions/'
 - Check the example project to see how to implement this Joystick.
 
+
 **Please Note**
 ----------------
 If you are not planning on using the default skin of the Joystick, the please open the file 'JoyStick.as' and then
@@ -21,4 +22,3 @@ remove these lines of code:
 `public static const DEFAULT_STICK:Texture = Texture.fromBitmap( new dsClassEmbed() );`
 `[Embed( source="skins/default_holder.png" )] private static const dhClassEmbed:Class;`
 `public static const DEFAULT_HOLDER:Texture = Texture.fromBitmap( new dhClassEmbed() );`
-<-

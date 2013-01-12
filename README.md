@@ -30,6 +30,16 @@ The above code would initialize the Joystick with the Default Skin. The Joystick
 bottom left of the screen since `minOffset` is the total size of the joystick, meaning that it will all be in the 
 screen. The Joystick is then added to the Starling Display List.
 
+If we wanted to load a JoyStick with a Texture from a `TextureAtlas`, then code similiar to the code below should 
+be used:
+
+<pre><code>var holderTexture:Texture = myTextureAtlas.getTexture('joystick_holder');
+var stickTexture:Texture = myTextureAtlas.getTexture('joystick_stick');
+var myJoystick:JoyStick = new JoyStick( holderTexture, stickTexture, true );</code></pre>
+
+This will load a JoyStick which is Custom Skinned. The last parameter is to set whether the JoyStick will start 
+working immediately. If you set this to false, the Joystick can be manually activated by calling `activate()`.
+
 ----
 <br/>
 <h3>Movement and Velocity</h3>
@@ -41,7 +51,7 @@ player.y += myJoystick.velocityY * maxSpeed;
 </code></pre>
 
 That's it. Run that code every frame and your object will move according to the Joystick. The values of `velocityX` and 
-`velocityY` are returned as normalized values, meaning that the value is between 0 and 1. This is for your benefit as 
+`velocityY` are returned as normalized values, meaning that the value is between -1 and 1. This is for your benefit as 
 you can multiply this by a maximum value to move and object depending on the distance of the stick from the center of 
 the holder.
 

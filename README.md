@@ -1,7 +1,7 @@
 <div align="center"> <h1>WELCOME TO ADVANCED_JOYSTICK<h1> </div>
 <br/><br/>
 
-<div align="center"><h2>Getting Started</h2></div>
+<div align="center"><h2><strong>Getting Started</strong></h2></div>
 Hey there. If you're reading this, it is likely you are looking for a Joystick solution for Starling. **Well you've 
 found it!*. This Joystick offers features you'd expect from one, and it runs smoothly with the GPU Acceleration that 
 Starling provides. To get started, you should:
@@ -14,8 +14,7 @@ Starling provides. To get started, you should:
 
 <br/><br/>
 
-**Usage**
-----------
+<div align="center"><h2><strong>Usage</strong></h2></div>
 The code in Advanced Joystick is **very** simple. Now, lets start with adding a simple JoyStick:
 
 <pre><code>import starling.extensions.advancedjoystick.JoyStick;
@@ -45,8 +44,7 @@ the holder.
 
 <br/><br/>
 
-**Please Note**
-----------------
+<div align="center"><h2><strong>Please Note</strong></h2></div>
 If you are not planning on using the default skin of the Joystick, the please open the file 'JoyStick.as' and then
 COMMENT OUT these lines of code:
 

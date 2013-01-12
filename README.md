@@ -12,7 +12,7 @@ Starling provides. To get started, you should:
 - Extract the source files to 'starling/extensions/'
 - Check the example project to see how to implement this Joystick.
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 <div align="center"><h2><strong>Usage</strong></h2></div>
 
@@ -57,7 +57,7 @@ These functions are pretty self-explanitory. If you deactivate the Joystick, tou
 The `changeSkin()` accepts 2 Starling Textures. I recommend using a Texture Atlas as these are helpful with Memory in 
 larger games. There are plenty of tutorials elsewhere for that.
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 <div align="center"><h2><strong>Please Note</strong></h2></div>
 If you are not planning on using the default skin of the Joystick, the please open the file 'JoyStick.as' and then

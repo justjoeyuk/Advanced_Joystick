@@ -1,4 +1,5 @@
 <div align="center"> <h1>WELCOME TO ADVANCED_JOYSTICK<h1> </div>
+<br/><br/>
 
 **Getting Started**
 -------------------
@@ -12,6 +13,7 @@ Starling provides. To get started, you should:
 - Extract the source files to 'starling/extensions/'
 - Check the example project to see how to implement this Joystick.
 
+<br/><br/>
 
 **Please Note**
 ----------------

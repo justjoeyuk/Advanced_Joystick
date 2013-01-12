@@ -147,7 +147,7 @@
 		
 		private function onJoystickTouch(evt:TouchEvent):void
 		{
-			var touch:Touch = evt.touches[0];
+			var touch:Touch = evt.getTouches(this)[0];
 			_touched = true;
 			switch( touch.phase )
 			{

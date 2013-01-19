@@ -39,7 +39,7 @@
 													"default skin, but you have removed the the lines of code "+
 													"that Embed this skin. Please uncomment the Embed Code.";
 		
-
+                
 		public function JoyStick(holderTexture:Texture = null,
 								 stickTexture:Texture = null,
 								 activateImmediately:Boolean = true)

@@ -190,17 +190,7 @@
 				stick.y -= distY/dis*force;
 			}
 		}
-		
-		
-		private function propertyExists( property:String ):Boolean
-		{
-			if( this.hasOwnProperty( property ) && this[property] )
-			{
-				return true;
-			}
-			return false;
-		}
-		
+
 		
 	}
 	

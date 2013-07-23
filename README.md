@@ -1,6 +1,21 @@
 <div align="center"> <h1>WELCOME TO ADVANCED_JOYSTICK<h1> </div>
 <br/><br/>
 
+<hr/>
+<div align="center">**FEEL FREE TO CONTRIBUTE TO MY WORK**</div>
+<div align="center"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="joeandrewclover@hotmail.co.uk">
+<input type="hidden" name="lc" value="GB">
+<input type="hidden" name="item_name" value="SpringMissile">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="GBP">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form></div>
+<hr/><br/>
+
 <div align="center"><h2><strong>Getting Started</strong></h2></div>
 Hey there. If you're reading this, it is likely you are looking for a Joystick solution for Starling. **Well you've 
 found it!**. This Joystick offers features you'd expect from one, and it runs smoothly with the GPU Acceleration that 

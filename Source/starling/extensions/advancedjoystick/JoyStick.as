@@ -90,8 +90,11 @@
 		{
 			return _velocityX;
 		}
-
-
+		
+		
+		/*
+		* Applies the touch listener to the JoyStick
+		*/
 		public function activate():void
 		{
 			if( stick.hasEventListener(TouchEvent.TOUCH) ) return;
@@ -99,7 +102,9 @@
 			stick.addEventListener( TouchEvent.TOUCH, onJoystickTouch );
 		}
 		
-		
+		/*
+		* Removes the touch listener to the JoyStick and resets it.
+		*/
 		public function deactivate():void
 		{
 			if( !stick.hasEventListener( TouchEvent.TOUCH ) ) return;
@@ -108,7 +113,13 @@
 			resetStick();
 		}
 		
-		
+		/*
+		* Disposes of any assets and uses new ones passed in. Sets the pivots and properties of new stick.
+		*
+		* @param holderTexture - The texture that holds the stick (the base)
+		* @param stickTexture - The texture of the actual stick
+		* @param activateImmediately - activate the joystick straight away
+		*/
 		private function initialize( holderTexture:Texture,
 									 stickTexture:Texture,
 									 activateImmediately:Boolean = true):void
@@ -187,7 +198,8 @@
 			
 			var dis:Number = Math.sqrt((distX * distX) + (distY * distY));
 			
-			if( Math.abs(dis) > pivotX )
+			// Faster inline 'absolute' comparison
+			if( (dis < 0) ? -dis : dis) > pivotX )
 			{
 				var force:Number = dis-pivotX;
 				stick.x -= distX/dis*force;

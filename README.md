@@ -1,11 +1,6 @@
 <div align="center"> <h1>WELCOME TO ADVANCED_JOYSTICK<h1> </div>
 <br/><br/>
 
-<hr/>
-<div align="center">**FEEL FREE TO CONTRIBUTE TO MY WORK**</div>
-<div align="center"><a href='http://www.pledgie.com/campaigns/21053'><img alt='Donate!' src='http://www.pledgie.com/campaigns/21053.png?skin_name=chrome' border='0' /></a></div>
-<hr/><br/>
-
 <div align="center"><h2><strong>Getting Started</strong></h2></div>
 Hey there. If you're reading this, it is likely you are looking for a Joystick solution for Starling. **Well you've 
 found it!**. This Joystick offers features you'd expect from one, and it runs smoothly with the GPU Acceleration that 

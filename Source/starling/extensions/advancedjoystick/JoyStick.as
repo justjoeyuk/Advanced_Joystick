@@ -199,7 +199,7 @@
 			var dis:Number = Math.sqrt((distX * distX) + (distY * distY));
 			
 			// Faster inline 'absolute' comparison
-			if( (dis < 0) ? -dis : dis) > pivotX )
+			if( ((dis < 0) ? -dis : dis) > pivotX )
 			{
 				var force:Number = dis-pivotX;
 				stick.x -= distX/dis*force;
